@@ -342,7 +342,7 @@ h3.line::before {
 }
 
 #services-container {
-	padding-top: 8%;
+	/* padding-top: 7%; */
 	padding-bottom: 0;
 	position: relative;
 }
@@ -435,10 +435,10 @@ h3.line::before {
 }
 
 .anchor {
-	padding-top: 10%;
-    display: block;
-    /* height: 50px; */
-    /* margin-top: -50px; */
+	padding-top: 8%;
+	display: block;
+	height: 50px;
+	margin-top: -50px;
 }
 
 .abt-content-wrapper {
@@ -667,6 +667,12 @@ h3.line::before {
 	.navbar-fixed {
 		height: auto;
 	}
+	#primary-navbar {
+		position: absolute;
+		z-index: 999;
+		width: 100%;
+		overflow-y: initial;
+	}
 }
 
 @media (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
@@ -762,6 +768,9 @@ h3.line::before {
 	}
 	.service-carousel-wrapper {
 		pointer-events: initial;
+	}
+	.custom-navbar {
+		margin: -1px -15px;
 	}
 }
 
@@ -876,7 +885,6 @@ h3.line::before {
 	}
 }
 
-
 @media (min-width: 1200px) and (max-width: 1400px) {
 	.banner-carousel .owl-prev {
 		left: 1em;
@@ -894,7 +902,6 @@ h3.line::before {
 }
 
 @media (min-width: 1200px) and (max-width: 1600px) {
-	
 	/* .banner-content-alignment {
 		left: 50% !important;
 	} */
@@ -908,7 +915,6 @@ h3.line::before {
 		min-height: 65vh;
 	}
 }
-
 
 @media (min-width: 1400px) and (max-width: 1500px) {
 	.banner-content-alignment {
