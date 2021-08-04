@@ -253,7 +253,7 @@ h3.line::before {
 .banner-content-alignment {
 	position: absolute;
 	top: 30%;
-	left: 50%;
+	left: 52%;
 	width: 35%;
 }
 
@@ -903,7 +903,7 @@ h3.line::before {
 
 @media (min-width: 1400px) and (max-width: 1500px) {
 	.banner-content-alignment {
-		left: 56% !important;
+		left: 58% !important;
 	}
 }
 
@@ -930,6 +930,6 @@ h3.line::before {
 
 @media screen and (min-width: 1601px) {
 	.banner-content-alignment {
-		left: 54% !important;
+		left: 57% !important;
 	}
 }
