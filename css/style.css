@@ -342,7 +342,7 @@ h3.line::before {
 }
 
 #services-container {
-	/* padding-top: 8%; */
+	padding-top: 8%;
 	padding-bottom: 0;
 	position: relative;
 }
@@ -435,9 +435,10 @@ h3.line::before {
 }
 
 .anchor {
-	padding-top: 7%;
+	padding-top: 10%;
     display: block;
-
+    /* height: 50px; */
+    /* margin-top: -50px; */
 }
 
 .abt-content-wrapper {
