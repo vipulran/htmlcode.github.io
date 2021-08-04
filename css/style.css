@@ -253,7 +253,7 @@ h3.line::before {
 .banner-content-alignment {
 	position: absolute;
 	top: 30%;
-	left: 50%;
+	left: 48%;
 	width: 35%;
 }
 
@@ -887,7 +887,7 @@ h3.line::before {
 @media (min-width: 1200px) and (max-width: 1600px) {
 	
 	.banner-content-alignment {
-		left: 50% !important;
+		left: 48% !important;
 	}
 	#banner-img {
 		min-height: 91vh;
@@ -898,9 +898,16 @@ h3.line::before {
 	#banner-img {
 		min-height: 70vh;
 	}
+	.banner-content-alignment {
+		left: 54% !important;
+	}
 }
 
-@media (min-width: 1300px) and (max-width: 1600px) {
+
+@media (min-width: 1400px) and (max-width: 1500px) {
+	.banner-content-alignment {
+		left: 54% !important;
+	}
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
@@ -924,4 +931,8 @@ h3.line::before {
 
 @media (min-width: 1500px) and (max-width: 1600px) {}
 
-@media screen and (min-width: 1700px) {}
+@media screen and (min-width: 1601px) {
+	.banner-content-alignment {
+		left: 54% !important;
+	}
+}
