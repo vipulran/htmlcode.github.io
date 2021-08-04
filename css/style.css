@@ -656,10 +656,8 @@ h3.line::before {
 		text-align: initial;
 	}
 	.anchor {
-		padding-top: 0;
-	}
-	#services-container {
-		padding-top: 0;
+		padding-top: 20%;
+		margin-top: -80px;
 	}
 	.navbar-fixed {
 		height: auto;
@@ -673,7 +671,7 @@ h3.line::before {
 	.custom-navbar {
 		padding-top: 3%;
 		padding-bottom: 3%;
-		margin: -1px -15px;
+		margin: -1px -25px;
 	}
 }
 
@@ -762,14 +760,17 @@ h3.line::before {
 		right: 0;
 		position: absolute;
 	}
-	#about-container h3 {
+	/* #about-container h3 {
 		margin-top: 5%;
-	}
+	} */
 	.service-carousel p {
 		padding-right: 15px;
 	}
 	.service-carousel-wrapper {
 		pointer-events: initial;
+	}
+	.custom-navbar {
+		padding-top: 2%;
 	}
 }
 
@@ -847,6 +848,7 @@ h3.line::before {
 	.primary-heading {
 		font-size: 35px;
 	}
+	
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
@@ -881,6 +883,9 @@ h3.line::before {
 	}
 	.banner-carousel.owl-carousel .owl-nav {
 		top: 50%;
+	}
+	.anchor {
+		padding-top: 11%;
 	}
 }
 
@@ -937,6 +942,10 @@ h3.line::before {
 	}
 	.banner-img4 {
 		background-position: 28% !important;
+	}
+	.anchor {
+		padding-top: 20%;
+		margin-top: -80px;
 	}
 }
 
