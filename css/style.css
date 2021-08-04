@@ -253,7 +253,7 @@ h3.line::before {
 .banner-content-alignment {
 	position: absolute;
 	top: 30%;
-	left: 48%;
+	left: 50%;
 	width: 35%;
 }
 
@@ -886,27 +886,24 @@ h3.line::before {
 
 @media (min-width: 1200px) and (max-width: 1600px) {
 	
-	.banner-content-alignment {
-		left: 48% !important;
-	}
+	/* .banner-content-alignment {
+		left: 50% !important;
+	} */
 	#banner-img {
 		min-height: 91vh;
 	}
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
 	#banner-img {
-		min-height: 70vh;
-	}
-	.banner-content-alignment {
-		left: 54% !important;
+		min-height: 65vh;
 	}
 }
 
 
 @media (min-width: 1400px) and (max-width: 1500px) {
 	.banner-content-alignment {
-		left: 54% !important;
+		left: 56% !important;
 	}
 }
 
