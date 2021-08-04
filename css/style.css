@@ -253,8 +253,8 @@ h3.line::before {
 .banner-content-alignment {
 	position: absolute;
 	top: 30%;
-	left: 55%;
-	width: 38%;
+	left: 50%;
+	width: 35%;
 }
 
 #banner-carousel {
@@ -867,11 +867,13 @@ h3.line::before {
 	}
 }
 
-@media (min-width: 1200px) and (max-width: 1300px) {
-	.banner-content-alignment {
-		left: 50% !important;
-		/* width: 37% !important;
-		padding: 0 70px; */
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+	.banner-carousel .owl-prev {
+		left: 1em;
+	}
+	.banner-carousel .owl-next {
+		right: 1em;
 	}
 	.secondary-heading {
 		font-size: 13px;
@@ -880,30 +882,25 @@ h3.line::before {
 		font-size: 30px;
 		line-height: 40px;
 	}
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+	
+	.banner-content-alignment {
+		left: 50% !important;
+	}
+	#banner-img {
+		min-height: 91vh;
+	}
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
 	#banner-img {
 		min-height: 70vh;
 	}
 }
 
-@media (min-width: 1200px) and (max-width: 1400px) {
-	.service-counter {
-		top: 75%;
-		left: 35%;
-	}
-	.banner-counter {
-		top: 84%;
-		right: 16%;
-	}
-	/* .banner-content-alignment {
-		left: 60%;
-		width: 35%;
-	} */
-	.banner-carousel .owl-prev {
-		left: 1em;
-	}
-	.banner-carousel .owl-next {
-		right: 1em;
-	}
+@media (min-width: 1300px) and (max-width: 1600px) {
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
