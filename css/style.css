@@ -251,7 +251,7 @@ h3.line::before {
 
 .banner-content-alignment {
 	position: absolute;
-	top: 30%;
+	top: 35%;
 	left: 52%;
 	width: 35%;
 }
@@ -694,7 +694,7 @@ h3.line::before {
 @media (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
 	.banner-content-alignment {
 		position: absolute;
-		top: 43%;
+		top: 47%;
 		left: 1%;
 		width: auto;
 		padding: 29px;
@@ -713,6 +713,9 @@ h3.line::before {
 		right: 0;
 		height: auto;
 		position: initial;
+	}
+	#banner-img {
+		margin-top: 18%;
 	}
 }
 
@@ -738,6 +741,9 @@ h3.line::before {
 		right: 0;
 		position: initial;
 		height: auto;
+	}
+	#banner-img {
+		margin-top: 10%;
 	}
 }
 
@@ -927,7 +933,7 @@ h3.line::before {
 	} */
 	#banner-img {
 		min-height: 91vh;
-		margin-top: 4%;
+		margin-top: 5%;
 	}
 }
 
