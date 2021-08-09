@@ -434,10 +434,10 @@ h3.line::before {
 }
 
 .anchor {
-	padding-top: 8%;
+	padding-top: 4%;
     display: block;
     height: 50px;
-    margin-top: -50px;
+    /* margin-top: -50px; */
 }
 
 .section-alignment {
@@ -685,8 +685,9 @@ h3.line::before {
 		padding-top: 0;
 	}
 	.anchor {
-		padding-top: 20%;
-		margin-top: -80px;
+		padding-top: 1%;
+		margin-top: 0;
+		height: 10px;
 	}
 }
 
