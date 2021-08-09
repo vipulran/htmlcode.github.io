@@ -170,7 +170,6 @@ h3.line::before {
 	margin-right: 0;
 }
 
-
 .custom-navbar li a {
 	color: #2E3192;
 	font-size: 18px;
@@ -381,7 +380,6 @@ h3.line::before {
 	color: #000000;
 	font-size: 15px;
 	font-weight: 500;
-	padding-right: 13%;
 	line-height: 24px;
 }
 
@@ -436,6 +434,14 @@ h3.line::before {
 	display: block;
 	height: 50px;
 	margin-top: -50px;
+}
+
+.section-alignment {
+	padding-top: 10%;
+}
+
+.section-alignment1 {
+	padding-top: 7%;
 }
 
 .abt-content-wrapper {
@@ -577,7 +583,8 @@ h3.line::before {
 		background-position: 17% !important;
 	}
 	.banner-img3 {
-		background-position: 17% !important;
+		background-position-x: 23% !important;
+		background-position-y: 2% !important;
 	}
 	.banner-img4 {
 		background-position: 17% !important;
@@ -655,10 +662,6 @@ h3.line::before {
 	#about-container p {
 		text-align: initial;
 	}
-	.anchor {
-		padding-top: 20%;
-		margin-top: -80px;
-	}
 	.navbar-fixed {
 		height: auto;
 	}
@@ -672,6 +675,16 @@ h3.line::before {
 		padding-top: 3%;
 		padding-bottom: 3%;
 		margin: -1px -25px;
+	}
+	.section-alignment {
+		padding-top: 30%;
+	}
+	.section-alignment1 {
+		padding-top: 0;
+	}
+	.anchor {
+		padding-top: 20%;
+		margin-top: -80px;
 	}
 }
 
@@ -848,7 +861,6 @@ h3.line::before {
 	.primary-heading {
 		font-size: 35px;
 	}
-	
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
@@ -942,10 +954,6 @@ h3.line::before {
 	}
 	.banner-img4 {
 		background-position: 28% !important;
-	}
-	.anchor {
-		padding-top: 20%;
-		margin-top: -80px;
 	}
 }
 
