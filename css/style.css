@@ -150,8 +150,7 @@ h3.line::before {
 
 #primary-header {
 	margin-bottom: 10px;
-	transition-duration: 0.5s;
-	transition-timing-function: ease-in-out;
+	background-color: #fff;
 }
 
 #primary-header .primary-header-container {
