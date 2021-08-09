@@ -123,7 +123,7 @@
 			e.preventDefault();
 			$('html, body').stop().animate({
 				scrollTop: $($(this).attr('href')).offset().top - navbar
-			}, 1750, 'linear');
+			}, 1500, 'linear');
 		});
 
 		$('.custom-navbar>li>a').on('click', function () {
