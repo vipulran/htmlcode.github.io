@@ -119,6 +119,8 @@ h3.line::before {
 	box-shadow: 0px 5px 10px rgba(104, 157, 198, 0.19);
 	-webkit-box-shadow: 0px 5px 10px rgba(104, 157, 198, 0.19);
 	-moz-box-shadow: 0px 5px 10px rgba(104, 157, 198, 0.19);
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in-out;
 }
 
 .banner-counter {
@@ -148,6 +150,8 @@ h3.line::before {
 
 #primary-header {
 	margin-bottom: 10px;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in-out;
 }
 
 #primary-header .primary-header-container {
@@ -169,6 +173,7 @@ h3.line::before {
 	padding-top: 1%;
 	margin-right: 0;
 }
+
 
 .custom-navbar li a {
 	color: #2E3192;
@@ -431,15 +436,14 @@ h3.line::before {
 
 .anchor {
 	padding-top: 8%;
-	display: block;
-	height: 50px;
-	margin-top: -50px;
+    display: block;
+    height: 50px;
+    margin-top: -50px;
 }
 
 .section-alignment {
-	padding-top: 10%;
+    padding-top: 10%;
 }
-
 .section-alignment1 {
 	padding-top: 7%;
 }
@@ -583,8 +587,7 @@ h3.line::before {
 		background-position: 17% !important;
 	}
 	.banner-img3 {
-		background-position-x: 23% !important;
-		background-position-y: 2% !important;
+		background-position: 17% !important;
 	}
 	.banner-img4 {
 		background-position: 17% !important;
@@ -861,6 +864,7 @@ h3.line::before {
 	.primary-heading {
 		font-size: 35px;
 	}
+	
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
