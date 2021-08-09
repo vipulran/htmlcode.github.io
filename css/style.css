@@ -171,7 +171,6 @@ h3.line::before {
 	margin-right: 0;
 }
 
-
 .custom-navbar li a {
 	color: #2E3192;
 	font-size: 18px;
@@ -434,14 +433,15 @@ h3.line::before {
 
 .anchor {
 	padding-top: 4%;
-    display: block;
-    height: 50px;
-    /* margin-top: -50px; */
+	display: block;
+	height: 50px;
+	/* margin-top: -50px; */
 }
 
 .section-alignment {
-    padding-top: 10%;
+	padding-top: 10%;
 }
+
 .section-alignment1 {
 	padding-top: 7%;
 }
@@ -873,7 +873,6 @@ h3.line::before {
 	.primary-heading {
 		font-size: 35px;
 	}
-	
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
