@@ -927,6 +927,7 @@ h3.line::before {
 	} */
 	#banner-img {
 		min-height: 91vh;
+		margin-top: 4%;
 	}
 }
 
