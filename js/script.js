@@ -134,14 +134,14 @@
 		$('.navbar-collapse').collapse('hide');
 	});
 
-	$(window).bind('scroll', function () {
-		if ($(window).scrollTop() > 500) {
-			$("#primary-header").addClass('navbar-fixed');
-		}
-		else {
-			$("#primary-header").removeClass('navbar-fixed');
-		}
-	});
+	// $(window).bind('scroll', function () {
+	// 	if ($(window).scrollTop() > 500) {
+	// 		$("#primary-header").addClass('navbar-fixed');
+	// 	}
+	// 	else {
+	// 		$("#primary-header").removeClass('navbar-fixed');
+	// 	}
+	// });
 }(jQuery));
 
 
