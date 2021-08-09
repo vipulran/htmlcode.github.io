@@ -794,6 +794,9 @@ h3.line::before {
 	.custom-navbar {
 		padding-top: 2%;
 	}
+	#banner-img {
+		margin-top: 7%;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
