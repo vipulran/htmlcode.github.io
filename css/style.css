@@ -171,7 +171,7 @@ h3.line::before {
 }
 
 #banner-img {
-	min-height: 100vh;
+	min-height: 80vh;
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-top: 5%;
@@ -250,7 +250,7 @@ h3.line::before {
 
 .banner-carousel.owl-carousel .owl-nav {
 	position: absolute;
-	top: 50%;
+	top: 47%;
 	left: 0;
 	right: 0;
 }
@@ -683,7 +683,7 @@ h3.line::before {
 @media (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
 	.banner-content-alignment {
 		position: absolute;
-		top: 50%;
+		top: 48%;
 		left: 1%;
 		width: auto;
 		padding: 29px;
@@ -832,7 +832,7 @@ h3.line::before {
 		background-color: #fff;
 		opacity: 0.8;
 		padding: 5%;
-		top: 50%;
+		top: 49%;
 	}
 	.banner-img1 {
 		background-position: 12% !important;
@@ -847,7 +847,7 @@ h3.line::before {
 		background-position: 12% !important;
 	}
 	.banner-carousel.owl-carousel .owl-nav {
-		top: 80%;
+		top: 90%;
 	}
 	.banner-carousel .owl-prev {
 		left: 0;
