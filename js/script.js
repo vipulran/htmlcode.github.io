@@ -118,7 +118,7 @@
 		$(document).on('click', 'a[href^="#"]', function (e) {
 			var menuheight, navbar, header;
 			// header = jQuery("header").outerHeight();
-			navbar = jQuery(".navbar").outerHeight();
+			navbar = jQuery(".navbar").innerHeight();
 			menuheight = header + navbar;
 			e.preventDefault();
 			$('html, body').stop().animate({
@@ -135,13 +135,17 @@
 	});
 
 	// $(window).bind('scroll', function () {
-	// 	if ($(window).scrollTop() > 500) {
+	// 	if ($(window).scrollTop() > 50) {
 	// 		$("#primary-header").addClass('navbar-fixed');
 	// 	}
 	// 	else {
 	// 		$("#primary-header").removeClass('navbar-fixed');
 	// 	}
 	// });
+	if ($(window).width() < 767) {
+	
+	} else {
+	}
 }(jQuery));
 
 

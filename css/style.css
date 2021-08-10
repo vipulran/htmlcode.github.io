@@ -116,6 +116,20 @@ h3.line::before {
 	z-index: 10;
 }
 
+.navbar-fixed {
+	background-color: #fff;
+	height: 80px;
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+	top: 0;
+	border-width: 0 0 1px;
+	box-shadow: 0px 5px 10px rgba(104, 157, 198, 0.19);
+	-webkit-box-shadow: 0px 5px 10px rgba(104, 157, 198, 0.19);
+	-moz-box-shadow: 0px 5px 10px rgba(104, 157, 198, 0.19);
+}
+
 .service-counter {
 	position: absolute;
 	top: 77%;
@@ -133,7 +147,7 @@ h3.line::before {
 } */
 
 #primary-header {
-	margin-bottom: 10px;
+	margin-bottom: 0;
 	background-color: #fff;
 	box-shadow: 0px 5px 10px rgba(104, 157, 198, 0.19);
 	-webkit-box-shadow: 0px 5px 10px rgba(104, 157, 198, 0.19);
@@ -174,7 +188,7 @@ h3.line::before {
 	min-height: 80vh;
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin-top: 5%;
+	margin-top: 75px;
 }
 
 .banner-img1 {
@@ -566,7 +580,7 @@ h3.line::before {
 	#banner-img {
 		min-height: 100vh;
 		background-size: cover;
-		margin-top: 18%;
+		margin-top: 87px;
 	}
 	.banner-img1 {
 		background-position: 20% !important;
@@ -674,7 +688,7 @@ h3.line::before {
 		padding-top: 0;
 	}
 	.anchor {
-		padding-top: 0%;
+		padding-top: 0;
 		margin-top: 0;
 		height: 1px;
 	}
@@ -704,7 +718,7 @@ h3.line::before {
 		position: initial;
 	}
 	#banner-img {
-		margin-top: 18%;
+		/* margin-top: 18%; */
 	}
 }
 
@@ -732,7 +746,7 @@ h3.line::before {
 		height: auto;
 	}
 	#banner-img {
-		margin-top: 10%;
+		/* margin-top: 10%; */
 	}
 }
 
@@ -784,7 +798,7 @@ h3.line::before {
 		padding-top: 2%;
 	}
 	#banner-img {
-		margin-top: 7%;
+		/* margin-top: 7%; */
 	}
 }
 
@@ -921,14 +935,14 @@ h3.line::before {
 @media (min-width: 1200px) and (max-width: 1300px) {
 	#banner-img {
 		min-height: 91vh;
-		margin-top: 5%;
+		/* margin-top: 5%; */
 	}
 }
 
 @media (min-width: 1300px) and (max-width: 1400px) {
 	#banner-img {
 		min-height: 70vh !important;
-		margin-top: 5%;
+		/* margin-top: 5%; */
 	}
 }
 
@@ -965,7 +979,7 @@ h3.line::before {
 
 @media (min-width: 1500px) and (max-width: 1600px) {
 	#banner-img {
-		margin-top: 4%;
+		/* margin-top: 0; */
 	}
 }
 
@@ -974,6 +988,6 @@ h3.line::before {
 		left: 57% !important;
 	}
 	#banner-img {
-		margin-top: 3%;
+		/* margin-top: 3%; */
 	}
 }
