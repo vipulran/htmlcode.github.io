@@ -107,20 +107,6 @@ h3.line::before {
 	margin-right: 20px;
 }
 
-.navbar-fixed {
-	background-color: #fff;
-	height: 80px;
-	position: fixed;
-	right: 0;
-	left: 0;
-	z-index: 1030;
-	top: 0;
-	border-width: 0 0 1px;
-	box-shadow: 0px 5px 10px rgba(104, 157, 198, 0.19);
-	-webkit-box-shadow: 0px 5px 10px rgba(104, 157, 198, 0.19);
-	-moz-box-shadow: 0px 5px 10px rgba(104, 157, 198, 0.19);
-}
-
 .banner-counter {
 	position: absolute;
 	top: 83%;
@@ -149,6 +135,9 @@ h3.line::before {
 #primary-header {
 	margin-bottom: 10px;
 	background-color: #fff;
+	box-shadow: 0px 5px 10px rgba(104, 157, 198, 0.19);
+	-webkit-box-shadow: 0px 5px 10px rgba(104, 157, 198, 0.19);
+	-moz-box-shadow: 0px 5px 10px rgba(104, 157, 198, 0.19);
 }
 
 #primary-header .primary-header-container {
@@ -261,7 +250,7 @@ h3.line::before {
 
 .banner-carousel.owl-carousel .owl-nav {
 	position: absolute;
-	top: 40%;
+	top: 50%;
 	left: 0;
 	right: 0;
 }
@@ -586,7 +575,7 @@ h3.line::before {
 		background-position: 17% !important;
 	}
 	.banner-img3 {
-		background-position: 25% !important;
+		background-position: 15% !important;
 	}
 	.banner-img4 {
 		background-position: 17% !important;
@@ -694,7 +683,7 @@ h3.line::before {
 @media (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
 	.banner-content-alignment {
 		position: absolute;
-		top: 47%;
+		top: 50%;
 		left: 1%;
 		width: auto;
 		padding: 29px;
@@ -929,12 +918,16 @@ h3.line::before {
 	}
 }
 
-@media (min-width: 1200px) and (max-width: 1600px) {
-	/* .banner-content-alignment {
-		left: 50% !important;
-	} */
+@media (min-width: 1200px) and (max-width: 1300px) {
 	#banner-img {
 		min-height: 91vh;
+		margin-top: 5%;
+	}
+}
+
+@media (min-width: 1300px) and (max-width: 1400px) {
+	#banner-img {
+		min-height: 70vh;
 		margin-top: 5%;
 	}
 }
@@ -970,10 +963,17 @@ h3.line::before {
 	}
 }
 
-@media (min-width: 1500px) and (max-width: 1600px) {}
+@media (min-width: 1500px) and (max-width: 1600px) {
+	#banner-img {
+		margin-top: 4%;
+	}
+}
 
 @media screen and (min-width: 1601px) {
 	.banner-content-alignment {
 		left: 57% !important;
+	}
+	#banner-img {
+		margin-top: 3%;
 	}
 }
