@@ -927,7 +927,7 @@ h3.line::before {
 
 @media (min-width: 1300px) and (max-width: 1400px) {
 	#banner-img {
-		min-height: 70vh;
+		min-height: 70vh !important;
 		margin-top: 5%;
 	}
 }
