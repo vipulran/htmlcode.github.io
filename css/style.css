@@ -368,7 +368,7 @@ h3.line::before {
 .service-content p {
 	color: #000000;
 	font-size: 15px;
-	font-weight: 500;
+	/* font-weight: 500; */
 	padding-top: 8%;
 	padding-right: 13%;
 	line-height: 24px;
@@ -384,7 +384,7 @@ h3.line::before {
 .service-carousel p {
 	color: #000000;
 	font-size: 15px;
-	font-weight: 500;
+	/* font-weight: 500; */
 	line-height: 24px;
 }
 
