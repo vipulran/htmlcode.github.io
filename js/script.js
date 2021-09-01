@@ -13,9 +13,9 @@
 		}).owlCarousel({
 			items: 3,
 			loop: true,
-			autoplay: false,
+			autoplay: true,
 			autoplayTimeout: 4000,
-			autoplaySpeed: 1000,
+			autoplaySpeed: 2000,
 			dots: false,
 			nav: true,
 			navText: ["<img src='images/icon-left.svg'>", "<img src='images/icon-right.svg'>"],

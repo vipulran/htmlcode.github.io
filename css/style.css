@@ -192,11 +192,11 @@ h3.line::before {
 }
 
 .banner-img1 {
-	background-image: url(../images/banner1.png);
+	background-image: url(../images/banner2.png);
 }
 
 .banner-img2 {
-	background-image: url(../images/banner2.png);
+	background-image: url(../images/banner1.png);
 }
 
 .banner-img3 {
@@ -210,7 +210,7 @@ h3.line::before {
 .primary-heading {
 	color: #2E3192;
 	font-size: 40px;
-	line-height: 50px;
+	line-height: 40px;
 }
 
 .secondary-heading {
@@ -662,6 +662,7 @@ h3.line::before {
 	}
 	.title-info {
 		text-align: initial;
+		height: 130px;
 	}
 	#about-container p {
 		text-align: initial;
@@ -696,15 +697,15 @@ h3.line::before {
 @media (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
 	.banner-content-alignment {
 		position: absolute;
-		top: 48%;
-		left: 1%;
+		top: 400px;
+		left: 1rem;
 		width: auto;
-		padding: 29px;
+		padding: 10px 25px;
 		background-color: #fff;
 		opacity: 0.8;
 	}
 	.banner-carousel.owl-carousel .owl-nav {
-		top: 90%;
+		top: 660px;
 	}
 	.banner-carousel .owl-prev {
 		left: 0;
@@ -715,9 +716,6 @@ h3.line::before {
 		right: 0;
 		height: auto;
 		position: initial;
-	}
-	#banner-img {
-		/* margin-top: 18%; */
 	}
 }
 
