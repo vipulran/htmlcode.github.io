@@ -354,7 +354,7 @@ h3.line::before {
 }
 
 #services-container h3, #about-container h3, #contact-container h3 {
-	font-size: 18px;
+	font-size: 16px;
 	color: #9B28CB;
 	line-height: 21.6px;
 }
@@ -570,11 +570,11 @@ h3.line::before {
 		padding: 0;
 	}
 	.primary-heading {
-		font-size: 23px;
+		font-size: 24px;
 		line-height: 35px;
 	}
 	.secondary-heading {
-		font-size: 14px;
+		font-size: 16px;
 	}
 	#banner-img {
 		min-height: 100vh;
@@ -705,7 +705,7 @@ h3.line::before {
 		opacity: 0.8;
 	}
 	.banner-carousel.owl-carousel .owl-nav {
-		top: 660px;
+		top: 673px;
 	}
 	.banner-carousel .owl-prev {
 		left: 0;
