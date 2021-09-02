@@ -15,7 +15,7 @@
 			loop: true,
 			autoplay: true,
 			autoplayTimeout: 4000,
-			autoplaySpeed: 2000,
+			autoplaySpeed: 4000,
 			dots: false,
 			nav: true,
 			navText: ["<img src='images/icon-left.svg'>", "<img src='images/icon-right.svg'>"],

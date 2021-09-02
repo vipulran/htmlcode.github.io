@@ -159,12 +159,12 @@ h3.line::before {
 }
 
 #primary-header .navbar-brand {
-	padding: 0;
+	padding: 10px;
 	height: auto;
 }
 
 #primary-header .evolusions-logo {
-	max-width: 220px;
+	max-width: 200px;
 	height: auto;
 }
 
