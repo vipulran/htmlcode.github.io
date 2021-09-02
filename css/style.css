@@ -254,7 +254,7 @@ h3.line::before {
 	position: absolute;
 	top: 35%;
 	left: 52%;
-	width: 35%;
+	width: 40%;
 }
 
 #banner-carousel {
@@ -906,7 +906,7 @@ h3.line::before {
 		line-height: 30px;
 	}
 	.secondary-heading {
-		font-size: 14px;
+		font-size: 18px;
 	}
 	.banner-carousel.owl-carousel .owl-nav {
 		top: 50%;
@@ -924,10 +924,10 @@ h3.line::before {
 		right: 1em;
 	}
 	.secondary-heading {
-		font-size: 13px;
+		font-size: 18px;
 	}
 	.primary-heading {
-		font-size: 30px;
+		font-size: 40px;
 		line-height: 40px;
 	}
 }
@@ -955,6 +955,7 @@ h3.line::before {
 @media (min-width: 1400px) and (max-width: 1500px) {
 	.banner-content-alignment {
 		left: 58% !important;
+		width: 35%;
 	}
 }
 
@@ -986,6 +987,7 @@ h3.line::before {
 @media screen and (min-width: 1601px) {
 	.banner-content-alignment {
 		left: 57% !important;
+		width: 35%;
 	}
 	#banner-img {
 		/* margin-top: 3%; */
