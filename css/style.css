@@ -215,7 +215,7 @@ h3.line::before {
 
 .secondary-heading {
 	color: #9B28CB;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 21.6px;
 }
 
@@ -924,10 +924,10 @@ h3.line::before {
 		right: 1em;
 	}
 	.secondary-heading {
-		font-size: 18px;
+		font-size: 16px;
 	}
 	.primary-heading {
-		font-size: 40px;
+		font-size: 36px;
 		line-height: 40px;
 	}
 }
