@@ -209,7 +209,7 @@ h3.line::before {
 
 .primary-heading {
 	color: #2E3192;
-	font-size: 40px;
+	font-size: 36px;
 	line-height: 40px;
 }
 
@@ -348,7 +348,7 @@ h3.line::before {
 }
 
 #services-container h2, #about-container h2 {
-	font-size: 40px;
+	font-size: 36px;
 	color: #2E3192;
 	line-height: 40px;
 }
@@ -500,7 +500,7 @@ h3.line::before {
 }
 
 #contact-container h2 {
-	font-size: 40px;
+	font-size: 36px;
 	color: #2E3192;
 	line-height: 40px;
 }
